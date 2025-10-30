@@ -1,2 +1,2 @@
-source /home/bright/esp/ws/tcp/build/gdbinit/symbols
-source /home/bright/esp/ws/tcp/build/gdbinit/connect
+source /home/bright/esp/ws/simpleESP32_PUBSUB/tcp/build/gdbinit/symbols
+source /home/bright/esp/ws/simpleESP32_PUBSUB/tcp/build/gdbinit/connect

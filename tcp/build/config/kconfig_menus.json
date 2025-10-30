@@ -5085,7 +5085,7 @@
             }
         ],
         "depends_on": null,
-        "id": "example-configuration-home-bright-esp-ws-tcp-main-Kconfig.projbuild-1",
+        "id": "example-configuration-home-bright-esp-ws-simpleESP32_PUBSUB-tcp-main-Kconfig.projbuild-1",
         "title": "Example Configuration",
         "type": "menu"
     },

@@ -1204,7 +1204,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_main_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/home/bright/esp/ws/tcp -B/home/bright/esp/ws/tcp/build
+  command = /usr/bin/cmake --regenerate-during-build -S/home/bright/esp/ws/simpleESP32_PUBSUB/tcp -B/home/bright/esp/ws/simpleESP32_PUBSUB/tcp/build
   description = Re-running CMake...
   generator = 1
 

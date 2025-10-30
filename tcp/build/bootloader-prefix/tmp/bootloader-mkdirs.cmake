@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "/home/bright/esp/esp-idf/components/bootloader/subproject"
-  "/home/bright/esp/ws/tcp/build/bootloader"
-  "/home/bright/esp/ws/tcp/build/bootloader-prefix"
-  "/home/bright/esp/ws/tcp/build/bootloader-prefix/tmp"
-  "/home/bright/esp/ws/tcp/build/bootloader-prefix/src/bootloader-stamp"
-  "/home/bright/esp/ws/tcp/build/bootloader-prefix/src"
-  "/home/bright/esp/ws/tcp/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/bright/esp/ws/simpleESP32_PUBSUB/tcp/build/bootloader"
+  "/home/bright/esp/ws/simpleESP32_PUBSUB/tcp/build/bootloader-prefix"
+  "/home/bright/esp/ws/simpleESP32_PUBSUB/tcp/build/bootloader-prefix/tmp"
+  "/home/bright/esp/ws/simpleESP32_PUBSUB/tcp/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/bright/esp/ws/simpleESP32_PUBSUB/tcp/build/bootloader-prefix/src"
+  "/home/bright/esp/ws/simpleESP32_PUBSUB/tcp/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/bright/esp/ws/tcp/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/bright/esp/ws/simpleESP32_PUBSUB/tcp/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/bright/esp/ws/tcp/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/bright/esp/ws/simpleESP32_PUBSUB/tcp/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

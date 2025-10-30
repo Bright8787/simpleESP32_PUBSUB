@@ -1,4 +1,4 @@
-# Install script for directory: /home/bright/esp/ws/tcp/main
+# Install script for directory: /home/bright/esp/ws/simpleESP32_PUBSUB/tcp/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-Command: ninja all
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/bright/.espressif/python_env/idf6.1_py3.12_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /home/bright/esp/ws/simpleESP32_PUBSUB/tcp
 Configuration Report               
  ───────────────────────────────── 
    Parser Version: 1               

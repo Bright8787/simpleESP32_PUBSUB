@@ -22,4 +22,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file /home/bright/esp/ws/tcp/build/bootloader/bootloader.elf
+file /home/bright/esp/ws/simpleESP32_PUBSUB/tcp/build/bootloader/bootloader.elf

@@ -18,8 +18,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file /home/bright/esp/ws/tcp/build/bootloader/bootloader.elf
+    add-symbol-file /home/bright/esp/ws/simpleESP32_PUBSUB/tcp/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file /home/bright/esp/ws/tcp/build/mqtt_tcp.elf
+file /home/bright/esp/ws/simpleESP32_PUBSUB/tcp/build/mqtt_tcp.elf

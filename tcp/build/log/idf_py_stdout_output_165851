@@ -1,0 +1,406 @@
+Command: /home/bright/.espressif/python_env/idf6.1_py3.12_env/bin/python /home/bright/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/bright/esp/ws/simpleESP32_PUBSUB/tcp/build/mqtt_tcp.elf /home/bright/esp/ws/simpleESP32_PUBSUB/tcp/build/bootloader/bootloader.elf -m '/home/bright/.espressif/python_env/idf6.1_py3.12_env/bin/python' '/home/bright/esp/esp-idf/tools/idf.py' '-p' '/dev/ttyUSB0'
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED, msg_id=49476
+ENT_PUBLISHED19 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0040,len:6376
+load:0x40078000,len:15900
+ho 0 tail 12 room 4
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (29) boot: ESP-IDF v6.1-dev-1-gff97953b32-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Oct 30 2025 19:00:23[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (33) boot: chip revision: v3.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1e0e0h (123104) map[0m
+[0;32mI (134) esp_image: segment 1: paddr=0002e108 vaddr=3ffb0000 size=01f10h (  7952) load[0m
+[0;32mI (137) esp_image: segment 2: paddr=00030020 vaddr=400d0020 size=9ef40h (651072) map[0m
+[0;32mI (370) esp_image: segment 3: paddr=000cef68 vaddr=3ffb1f10 size=02234h (  8756) load[0m
+[0;32mI (373) esp_image: segment 4: paddr=000d11a4 vaddr=40080000 size=15578h ( 87416) load[0m
+[0;32mI (409) esp_image: segment 5: paddr=000e6724 vaddr=50000000 size=00024h (    36) load[0m
+[0;32mI (420) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (420) boot: Disabling RNG early entropy source...[0m
+[0;32mI (431) cpu_start: Multicore app[0m
+[0;32mI (439) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (439) cpu_start: Pro cpu start user code[0m
+[0;32mI (439) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (441) app_init: Application information:[0m
+[0;32mI (445) app_init: Project name:     mqtt_tcp[0m
+[0;32mI (449) app_init: App version:      ce05917-dirty[0m
+[0;32mI (453) app_init: Compile time:     Oct 30 2025 19:00:26[0m
+[0;32mI (458) app_init: ELF file SHA256:  a98d02f54...[0m
+[0;32mI (463) app_init: ESP-IDF:          v6.1-dev-1-gff97953b32-dirty[0m
+[0;32mI (468) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (472) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (476) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (480) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (491) heap_init: At 3FFB8AC8 len 00027538 (157 KiB): DRAM[0m
+[0;32mI (497) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (502) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (507) heap_init: At 40095578 len 0000AA88 (42 KiB): IRAM[0m
+[0;33mW (514) spi_flash: Detected boya flash chip but using generic driver. For optimal functionality, enable `SPI_FLASH_SUPPORT_BOYA_CHIP` in menuconfig[0m
+[0;32mI (526) spi_flash: detected chip: generic[0m
+[0;32mI (529) spi_flash: flash io: dio[0m
+[0;33mW (532) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (546) main_task: Started on CPU0[0m
+[0;32mI (556) main_task: Calling app_main()[0m
+[0;32mI (556) mqtt_example: [APP] Startup..[0m
+[0;32mI (556) mqtt_example: [APP] Free memory: 276448 bytes[0m
+[0;32mI (556) mqtt_example: [APP] IDF version: v6.1-dev-1-gff97953b32-dirty[0m
+[0;32mI (576) example_connect: Start example_connect.[0m
+[0;32mI (586) wifi:wifi driver task: 3ffc0648, prio:23, stack:6656, core=0[0m
+[0;32mI (586) wifi:wifi firmware version: dfff79f[0m
+[0;32mI (586) wifi:wifi certification version: v7.0[0m
+[0;32mI (586) wifi:config NVS flash: enabled[0m
+[0;32mI (586) wifi:config nano formatting: disabled[0m
+[0;32mI (596) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (596) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (606) wifi:Init management short buffer num: 32[0m
+[0;32mI (606) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (616) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (616) wifi:Init static rx buffer num: 10[0m
+[0;32mI (616) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (626) wifi_init: rx ba win: 6[0m
+[0;32mI (626) wifi_init: accept mbox: 6[0m
+[0;32mI (626) wifi_init: tcpip mbox: 32[0m
+[0;32mI (636) wifi_init: udp mbox: 6[0m
+[0;32mI (636) wifi_init: tcp mbox: 6[0m
+[0;32mI (636) wifi_init: tcp tx win: 5760[0m
+[0;32mI (646) wifi_init: tcp rx win: 5760[0m
+[0;32mI (646) wifi_init: tcp mss: 1440[0m
+[0;32mI (646) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (646) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (656) phy_init: phy_version 4861,b71b5ad,Aug  5 2025,11:16:06[0m
+[0;32mI (746) wifi:mode : sta (78:1c:3c:ca:eb:08)[0m
+[0;32mI (746) wifi:enable tsf[0m
+[0;32mI (746) example_connect: Connecting to Nbb...[0m
+[0;33mW (756) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (756) example_connect: Waiting for IP(s)[0m
+[0;32mI (3416) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (3426) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (3426) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (3436) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (3476) wifi:connected with Nbb, aid = 2, channel 6, BW20, bssid = 1a:91:fd:d4:6a:46[0m
+[0;32mI (3476) wifi:security: WPA2-PSK, phy: bgn, rssi: -37[0m
+[0;32mI (3476) wifi:pm start, type: 1[0m
+
+[0;32mI (3476) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (3566) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (3626) wifi:<ba-add>idx:0 (ifx:0, 1a:91:fd:d4:6a:46), tid:0, ssn:2, winSize:64[0m
+[0;32mI (4576) example_connect: Got IPv6 event: Interface "example_netif_sta" address: fe80:0000:0000:0000:7a1c:3cff:feca:eb08, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (4596) esp_netif_handlers: example_netif_sta ip: 172.20.10.2, mask: 255.255.255.240, gw: 172.20.10.1[0m
+[0;32mI (4596) example_connect: Got IPv4 event: Interface "example_netif_sta" address: 172.20.10.2[0m
+[0;32mI (4596) example_common: Connected to example_netif_sta[0m
+[0;32mI (4606) example_common: - IPv4 address: 172.20.10.2,[0m
+[0;32mI (4606) example_common: - IPv6 address: fe80:0000:0000:0000:7a1c:3cff:feca:eb08, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (4616) mqtt_example: Other event id:7[0m
+[0;32mI (4626) main_task: Returned from app_main()[0m
+[0;32mI (4756) mqtt_example: MQTT_EVENT_CONNECTED[0m
+[0;32mI (4756) mqtt_example: sent subscribe successful, msg_id=43325[0m
+[0;32mI (4766) MQTT: Published msg_id=2256[0m
+[0;32mI (4886) mqtt_example: MQTT_EVENT_DATA[0m
+TOPIC=esp32/test
+DATA=Hello from ESP32
+[0;32mI (4896) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=2256[0m
+[0;32mI (6766) MQTT: Published msg_id=63912[0m
+[0;32mI (6966) mqtt_example: MQTT_EVENT_DATA[0m
+TOPIC=esp32/test
+DATA=Hello from ESP32
+[0;32mI (6976) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=63912[0m
+[0;32mI (7576) example_connect: Got IPv6 event: Interface "example_netif_sta" address: 2a02:3032:000a:5284:7a1c:3cff:feca:eb08, type: ESP_IP6_ADDR_IS_GLOBAL[0m
+[0;32mI (8766) MQTT: Published msg_id=30087[0m
+[0;32mI (8906) mqtt_example: MQTT_EVENT_DATA[0m
+TOPIC=esp32/test
+DATA=Hello from ESP32
+[0;32mI (8916) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=30087[0m
+[0;32mI (10766) MQTT: Published msg_id=19620[0m
+[0;32mI (10856) mqtt_example: MQTT_EVENT_DATA[0m
+TOPIC=esp32/test
+DATA=Hello from ESP32
+[0;32mI (10866) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=19620[0m
+[0;32mI (12766) MQTT: Published msg_id=30633[0m
+[0;32mI (12906) mqtt_example: MQTT_EVENT_DATA[0m
+TOPIC=esp32/test
+DATA=Hello from ESP32
+[0;32mI (12916) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=30633[0m
+[0;32mI (13616) mqtt_example: MQTT_EVENT_DATA[0m
+TOPIC=esp32/test
+DATA=Hello from terminal
+[0;32mI (14766) MQTT: Published msg_id=33714[0m
+[0;32mI (15046) mqtt_example: MQTT_EVENT_DATA[0m
+TOPIC=esp32/test
+DATA=Hello from ESP32
+[0;32mI (15056) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=33714[0m

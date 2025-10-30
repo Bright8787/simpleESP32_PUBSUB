@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bright/esp/ws/tcp/build/esp-idf/esp_system/port/cmake_install.cmake")
+  include("/home/bright/esp/ws/simpleESP32_PUBSUB/tcp/build/esp-idf/esp_system/port/cmake_install.cmake")
 endif()
 
