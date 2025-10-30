@@ -1,0 +1,2 @@
+source /home/bright/esp/ws/tcp/build/bootloader/gdbinit/symbols
+source /home/bright/esp/ws/tcp/build/bootloader/gdbinit/connect

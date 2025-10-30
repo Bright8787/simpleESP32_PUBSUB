@@ -1,0 +1,197 @@
+Command: /home/bright/.espressif/python_env/idf6.1_py3.12_env/bin/python /home/bright/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/bright/esp/ws/tcp/build/mqtt_tcp.elf /home/bright/esp/ws/tcp/build/bootloader/bootloader.elf -m '/home/bright/.espressif/python_env/idf6.1_py3.12_env/bin/python' '/home/bright/esp/esp-idf/tools/idf.py' '-p' '/dev/ttyUSB0'
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0040,len:6376
+load:0x40078000,len:15900
+ho 0 tail 12 room 4
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (29) boot: ESP-IDF v6.1-dev-1-gff97953b32-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Oct 30 2025 18:36:57[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (33) boot: chip revision: v3.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1e080h (123008) map[0m
+[0;32mI (134) esp_image: segment 1: paddr=0002e0a8 vaddr=3ffb0000 size=01f70h (  8048) load[0m
+[0;32mI (137) esp_image: segment 2: paddr=00030020 vaddr=400d0020 size=9ed74h (650612) map[0m
+[0;32mI (369) esp_image: segment 3: paddr=000ced9c vaddr=3ffb1f70 size=021d4h (  8660) load[0m
+[0;32mI (373) esp_image: segment 4: paddr=000d0f78 vaddr=40080000 size=15578h ( 87416) load[0m
+[0;32mI (409) esp_image: segment 5: paddr=000e64f8 vaddr=50000000 size=00024h (    36) load[0m
+[0;32mI (420) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (420) boot: Disabling RNG early entropy source...[0m
+[0;32mI (430) cpu_start: Multicore app[0m
+[0;32mI (439) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (439) cpu_start: Pro cpu start user code[0m
+[0;32mI (439) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (441) app_init: Application information:[0m
+[0;32mI (445) app_init: Project name:     mqtt_tcp[0m
+[0;32mI (449) app_init: App version:      1[0m
+[0;32mI (452) app_init: Compile time:     Oct 30 2025 18:36:59[0m
+[0;32mI (457) app_init: ELF file SHA256:  f5c24d2fe...[0m
+[0;32mI (461) app_init: ESP-IDF:          v6.1-dev-1-gff97953b32-dirty[0m
+[0;32mI (467) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (471) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (475) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (485) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (490) heap_init: At 3FFB8AC8 len 00027538 (157 KiB): DRAM[0m
+[0;32mI (495) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (501) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (506) heap_init: At 40095578 len 0000AA88 (42 KiB): IRAM[0m
+[0;33mW (513) spi_flash: Detected boya flash chip but using generic driver. For optimal functionality, enable `SPI_FLASH_SUPPORT_BOYA_CHIP` in menuconfig[0m
+[0;32mI (525) spi_flash: detected chip: generic[0m
+[0;32mI (528) spi_flash: flash io: dio[0m
+[0;33mW (531) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (545) main_task: Started on CPU0[0m
+[0;32mI (555) main_task: Calling app_main()[0m
+[0;32mI (555) mqtt_example: [APP] Startup..[0m
+[0;32mI (555) mqtt_example: [APP] Free memory: 276448 bytes[0m
+[0;32mI (555) mqtt_example: [APP] IDF version: v6.1-dev-1-gff97953b32-dirty[0m
+[0;32mI (575) example_connect: Start example_connect.[0m
+[0;32mI (585) wifi:wifi driver task: 3ffc0648, prio:23, stack:6656, core=0[0m
+[0;32mI (585) wifi:wifi firmware version: dfff79f[0m
+[0;32mI (585) wifi:wifi certification version: v7.0[0m
+[0;32mI (585) wifi:config NVS flash: enabled[0m
+[0;32mI (585) wifi:config nano formatting: disabled[0m
+[0;32mI (595) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (595) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (605) wifi:Init management short buffer num: 32[0m
+[0;32mI (605) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (615) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (615) wifi:Init static rx buffer num: 10[0m
+[0;32mI (615) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (625) wifi_init: rx ba win: 6[0m
+[0;32mI (625) wifi_init: accept mbox: 6[0m
+[0;32mI (625) wifi_init: tcpip mbox: 32[0m
+[0;32mI (635) wifi_init: udp mbox: 6[0m
+[0;32mI (635) wifi_init: tcp mbox: 6[0m
+[0;32mI (635) wifi_init: tcp tx win: 5760[0m
+[0;32mI (645) wifi_init: tcp rx win: 5760[0m
+[0;32mI (645) wifi_init: tcp mss: 1440[0m
+[0;32mI (645) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (645) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (655) phy_init: phy_version 4861,b71b5ad,Aug  5 2025,11:16:06[0m
+[0;32mI (745) wifi:mode : sta (78:1c:3c:ca:eb:08)[0m
+[0;32mI (745) wifi:enable tsf[0m
+[0;32mI (745) example_connect: Connecting to Nbb...[0m
+[0;33mW (745) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (755) example_connect: Waiting for IP(s)[0m
+[0;32mI (3415) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (3415) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (3435) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (3435) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (3485) wifi:connected with Nbb, aid = 4, channel 6, BW20, bssid = 1a:91:fd:d4:6a:46[0m
+[0;32mI (3485) wifi:security: WPA2-PSK, phy: bgn, rssi: -50[0m
+[0;32mI (3485) wifi:pm start, type: 1[0m
+
+[0;32mI (3495) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (3565) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (4575) example_connect: Got IPv6 event: Interface "example_netif_sta" address: fe80:0000:0000:0000:7a1c:3cff:feca:eb08, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (4595) esp_netif_handlers: example_netif_sta ip: 172.20.10.2, mask: 255.255.255.240, gw: 172.20.10.1[0m
+[0;32mI (4595) example_connect: Got IPv4 event: Interface "example_netif_sta" address: 172.20.10.2[0m
+[0;32mI (4595) example_common: Connected to example_netif_sta[0m
+[0;32mI (4605) example_common: - IPv4 address: 172.20.10.2,[0m
+[0;32mI (4605) example_common: - IPv6 address: fe80:0000:0000:0000:7a1c:3cff:feca:eb08, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (4625) mqtt_example: Other event id:7[0m
+[0;32mI (4625) main_task: Returned from app_main()[0m
+[0;32mI (4635) wifi:<ba-add>idx:0 (ifx:0, 1a:91:fd:d4:6a:46), tid:0, ssn:2, winSize:64[0m
+[0;32mI (5205) mqtt_example: MQTT_EVENT_CONNECTED[0m
+[0;32mI (5215) MQTT: Published msg_id=29902[0m
+[0;32mI (5255) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=29902[0m
+[0;32mI (7215) MQTT: Published msg_id=14931[0m
+[0;32mI (7275) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=14931[0m
+[0;32mI (7575) example_connect: Got IPv6 event: Interface "example_netif_sta" address: 2a02:3032:000a:5284:7a1c:3cff:feca:eb08, type: ESP_IP6_ADDR_IS_GLOBAL[0m
+[0;32mI (9215) MQTT: Published msg_id=2018[0m
+[0;32mI (9405) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=2018[0m
+[0;32mI (11215) MQTT: Published msg_id=64046[0m
+[0;32mI (11655) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=64046[0m
+[0;32mI (13215) MQTT: Published msg_id=26423[0m
+[0;32mI (13915) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=26423[0m
+[0;32mI (15215) MQTT: Published msg_id=33375[0m
+[0;32mI (15965) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=33375[0m
+[0;32mI (17215) MQTT: Published msg_id=2936[0m
+[0;32mI (17805) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=2936[0m
+[0;32mI (19215) MQTT: Published msg_id=417[0m
+[0;32mI (19855) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=417[0m
+[0;32mI (21215) MQTT: Published msg_id=54337[0m
+[0;32mI (21905) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=54337[0m
+[0;32mI (23215) MQTT: Published msg_id=35330[0m
+[0;32mI (23945) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=35330[0m
+[0;32mI (25215) MQTT: Published msg_id=23348[0m
+[0;32mI (25385) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=23348[0m
+[0;32mI (27215) MQTT: Published msg_id=27713[0m
+[0;32mI (27425) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=27713[0m
+[0;32mI (29215) MQTT: Published msg_id=52321[0m
+[0;32mI (29475) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=52321[0m
+[0;32mI (31215) MQTT: Published msg_id=3913[0m
+[0;32mI (31835) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=3913[0m
+[0;32mI (33215) MQTT: Published msg_id=21175[0m
+[0;32mI (33675) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=21175[0m
+[0;32mI (35215) MQTT: Published msg_id=28437[0m
+[0;32mI (35285) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=28437[0m
+[0;32mI (37215) MQTT: Published msg_id=57222[0m
+[0;32mI (37365) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=57222[0m
+[0;32mI (39215) MQTT: Published msg_id=36984[0m
+[0;32mI (39515) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=36984[0m
+[0;32mI (41215) MQTT: Published msg_id=38901[0m
+[0;32mI (41285) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=38901[0m
+[0;32mI (43215) MQTT: Published msg_id=28379[0m
+[0;32mI (43405) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=28379[0m
+[0;32mI (45215) MQTT: Published msg_id=63360[0m
+[0;32mI (45655) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=63360[0m
+[0;32mI (47215) MQTT: Published msg_id=38141[0m
+[0;32mI (47605) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=38141[0m
+[0;32mI (49215) MQTT: Published msg_id=31463[0m
+[0;32mI (49545) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=31463[0m
+[0;32mI (51215) MQTT: Published msg_id=28500[0m
+[0;32mI (51495) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=28500[0m
+[0;32mI (53215) MQTT: Published msg_id=7842[0m
+[0;32mI (53545) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=7842[0m
+[0;32mI (55215) MQTT: Published msg_id=26597[0m
+[0;32mI (55285) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=26597[0m
+[0;32mI (57215) MQTT: Published msg_id=46098[0m
+[0;32mI (57535) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=46098[0m
+[0;32mI (59215) MQTT: Published msg_id=31302[0m
+[0;32mI (59305) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=31302[0m
+[0;32mI (61215) MQTT: Published msg_id=5[0m
+[0;32mI (61735) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=5[0m
+[0;32mI (63215) MQTT: Published msg_id=11177[0m
+[0;32mI (63375) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=11177[0m
+[0;32mI (65215) MQTT: Published msg_id=39799[0m
+[0;32mI (65425) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=39799[0m
+[0;32mI (67215) MQTT: Published msg_id=3232[0m
+[0;32mI (67565) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=3232[0m
+[0;32mI (69215) MQTT: Published msg_id=19737[0m
+[0;32mI (69725) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=19737[0m
+[0;32mI (71215) MQTT: Published msg_id=762[0m
+[0;32mI (71355) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=762[0m
+[0;32mI (73215) MQTT: Published msg_id=63040[0m
+[0;32mI (73425) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=63040[0m
+[0;32mI (75215) MQTT: Published msg_id=46199[0m
+[0;32mI (75355) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=46199[0m
+[0;32mI (77215) MQTT: Published msg_id=2743[0m
+[0;32mI (77275) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=2743[0m
+[0;32mI (79215) MQTT: Published msg_id=39522[0m
+[0;32mI (79345) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=39522[0m
+[0;32mI (81215) MQTT: Published msg_id=43513[0m
+[0;32mI (81295) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=43513[0m
+[0;32mI (83215) MQTT: Published msg_id=51609[0m
+[0;32mI (83645) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=51609[0m
+[0;32mI (85215) MQTT: Published msg_id=54588[0m
+[0;32mI (86305) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=54588[0m
+[0;32mI (87215) MQTT: Published msg_id=19843[0m
+[0;32mI (87745) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=19843[0m
+[0;32mI (89215) MQTT: Published msg_id=59072[0m

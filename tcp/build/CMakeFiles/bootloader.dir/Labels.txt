@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/bright/esp/ws/tcp/build/CMakeFiles/bootloader
+/home/bright/esp/ws/tcp/build/CMakeFiles/bootloader.rule
+/home/bright/esp/ws/tcp/build/CMakeFiles/bootloader-complete.rule
+/home/bright/esp/ws/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/bright/esp/ws/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/bright/esp/ws/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/bright/esp/ws/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/bright/esp/ws/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/bright/esp/ws/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/bright/esp/ws/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
